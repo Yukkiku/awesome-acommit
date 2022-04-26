@@ -10,3 +10,5 @@ import (
 	"path/filepath"
 	"strings"
 )
+
+type Mes
