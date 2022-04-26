@@ -11,4 +11,5 @@ import (
 	"strings"
 )
 
-type Mes
+type Message struct {
+	R
