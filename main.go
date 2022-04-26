@@ -12,4 +12,4 @@ import (
 )
 
 type Message struct {
-	R
+	Role    string 
