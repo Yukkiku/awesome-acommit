@@ -13,4 +13,4 @@ import (
 
 type Message struct {
 	Role    string `json:"role"`
-	Content string `jso
+	Content string `json:"content"
