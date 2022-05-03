@@ -16,4 +16,5 @@ type Message struct {
 	Content string `json:"content"`
 }
 
-type Choice 
+type Choice struct {
+	Message
