@@ -17,4 +17,4 @@ type Message struct {
 }
 
 type Choice struct {
-	Message
+	Message Message `json
