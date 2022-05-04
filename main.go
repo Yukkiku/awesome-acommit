@@ -21,3 +21,4 @@ type Choice struct {
 }
 
 type JsonResponse struct {
+	Choices []Choic
