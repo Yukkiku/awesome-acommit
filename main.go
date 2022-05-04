@@ -20,4 +20,4 @@ type Choice struct {
 	Message Message `json:"message"`
 }
 
-type JsonRes
+type JsonResponse struct {
