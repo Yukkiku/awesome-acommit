@@ -19,3 +19,5 @@ type Message struct {
 type Choice struct {
 	Message Message `json:"message"`
 }
+
+type JsonRes
