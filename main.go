@@ -23,3 +23,6 @@ type Choice struct {
 type JsonResponse struct {
 	Choices []Choice `json:"choices"`
 }
+
+var (
+	apiKey 
