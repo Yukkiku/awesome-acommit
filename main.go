@@ -25,4 +25,4 @@ type JsonResponse struct {
 }
 
 var (
-	apiKey 
+	apiKey = os.Getenv("OPENAI_API
