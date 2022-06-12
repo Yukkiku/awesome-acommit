@@ -30,4 +30,4 @@ var (
 
 func main() {
 
-	diff, 
+	diff, err := getStagedD
