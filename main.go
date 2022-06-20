@@ -30,4 +30,5 @@ var (
 
 func main() {
 
-	diff, err := getStagedD
+	diff, err := getStagedDiff()
+	if er
