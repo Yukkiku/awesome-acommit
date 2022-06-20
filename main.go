@@ -31,4 +31,5 @@ var (
 func main() {
 
 	diff, err := getStagedDiff()
-	if er
+	if err != nil {
+		f
