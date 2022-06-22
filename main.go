@@ -32,4 +32,4 @@ func main() {
 
 	diff, err := getStagedDiff()
 	if err != nil {
-		fmt.Printf("Er
+		fmt.Printf("Error run
