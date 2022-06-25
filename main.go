@@ -32,4 +32,4 @@ func main() {
 
 	diff, err := getStagedDiff()
 	if err != nil {
-		fmt.Printf("Error running git 
+		fmt.Printf("Error running git diff --staged
