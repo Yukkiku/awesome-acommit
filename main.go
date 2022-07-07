@@ -35,4 +35,4 @@ func main() {
 		fmt.Printf("Error running git diff --staged: %v\n", err)
 		return
 	}
-	result, err := gen
+	result, err := generateText(
