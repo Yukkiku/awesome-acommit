@@ -36,4 +36,5 @@ func main() {
 		return
 	}
 	result, err := generateText(diff)
-	if er
+	if err != nil {
+		fmt
