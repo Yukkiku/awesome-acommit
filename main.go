@@ -37,4 +37,5 @@ func main() {
 	}
 	result, err := generateText(diff)
 	if err != nil {
-		fmt.Printf("Error: %
+		fmt.Printf("Error: %v\n", err)
+		re
