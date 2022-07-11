@@ -38,4 +38,6 @@ func main() {
 	result, err := generateText(diff)
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
-		re
+		return
+	}
+	text,
