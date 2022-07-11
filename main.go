@@ -40,4 +40,4 @@ func main() {
 		fmt.Printf("Error: %v\n", err)
 		return
 	}
-	text, err := pars
+	text, err := parseResponse(res
