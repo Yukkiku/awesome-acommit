@@ -41,4 +41,5 @@ func main() {
 		return
 	}
 	text, err := parseResponse(result)
-	if err
+	if err != nil {
+	
