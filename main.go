@@ -42,4 +42,4 @@ func main() {
 	}
 	text, err := parseResponse(result)
 	if err != nil {
-	
+		fmt.Printf("Err
