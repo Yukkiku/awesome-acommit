@@ -43,3 +43,6 @@ func main() {
 	text, err := parseResponse(result)
 	if err != nil {
 		fmt.Printf("Error unmarshalling JSON: %v\n", err)
+		return
+	}
+	er
