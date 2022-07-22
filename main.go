@@ -46,3 +46,4 @@ func main() {
 		return
 	}
 	err = commitWithEditor(text)
+	if err != ni
