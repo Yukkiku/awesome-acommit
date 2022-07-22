@@ -47,4 +47,4 @@ func main() {
 	}
 	err = commitWithEditor(text)
 	if err != nil {
-		fmt.Pr
+		fmt.Printf("Error run
