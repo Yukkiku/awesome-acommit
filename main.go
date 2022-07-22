@@ -45,4 +45,4 @@ func main() {
 		fmt.Printf("Error unmarshalling JSON: %v\n", err)
 		return
 	}
-	er
+	err = commitWithE
