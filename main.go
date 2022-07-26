@@ -47,4 +47,5 @@ func main() {
 	}
 	err = commitWithEditor(text)
 	if err != nil {
-		fmt.Printf("Error running git commit: %v\
+		fmt.Printf("Error running git commit: %v\n", err)
+		retur
