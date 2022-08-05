@@ -53,4 +53,4 @@ func main() {
 }
 
 func getStagedDiff() (string, error) {
-	cmd := 
+	cmd := exec.Command("
