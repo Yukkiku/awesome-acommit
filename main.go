@@ -52,4 +52,4 @@ func main() {
 	}
 }
 
-func getStagedDiff() (s
+func getStagedDiff() (string, error
