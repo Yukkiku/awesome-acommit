@@ -52,4 +52,5 @@ func main() {
 	}
 }
 
-func getStagedDiff() (string, error
+func getStagedDiff() (string, error) {
+	cmd := 
