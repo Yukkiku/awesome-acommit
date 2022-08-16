@@ -56,4 +56,5 @@ func getStagedDiff() (string, error) {
 	cmd := exec.Command("git", "diff", "--staged")
 
 	output, err := cmd.CombinedOutput()
-	i
+	if err != nil {
+	
