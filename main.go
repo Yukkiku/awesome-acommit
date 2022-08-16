@@ -55,4 +55,4 @@ func main() {
 func getStagedDiff() (string, error) {
 	cmd := exec.Command("git", "diff", "--staged")
 
-	output, err :
+	output, err := cmd.Com
