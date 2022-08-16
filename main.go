@@ -57,4 +57,4 @@ func getStagedDiff() (string, error) {
 
 	output, err := cmd.CombinedOutput()
 	if err != nil {
-	
+		return ""
