@@ -59,4 +59,4 @@ func getStagedDiff() (string, error) {
 	if err != nil {
 		return "", err
 	}
-	res
+	result := strings.T
