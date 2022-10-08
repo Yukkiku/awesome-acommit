@@ -61,4 +61,4 @@ func getStagedDiff() (string, error) {
 	}
 	result := strings.TrimSpace(string(output))
 	if result == "" {
-		return "
+		return "", fmt.Error
