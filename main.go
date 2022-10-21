@@ -64,4 +64,4 @@ func getStagedDiff() (string, error) {
 		return "", fmt.Errorf("No staged changes.")
 	}
 
-	return
+	return result, 
