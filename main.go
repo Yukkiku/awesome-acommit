@@ -67,4 +67,5 @@ func getStagedDiff() (string, error) {
 	return result, nil
 }
 
-func fetchPrompt() (string, er
+func fetchPrompt() (string, error) {
+	home,
