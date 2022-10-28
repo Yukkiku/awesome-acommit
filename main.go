@@ -73,4 +73,4 @@ func fetchPrompt() (string, error) {
 		return "", err
 	}
 
-	filePa
+	filePath := filepat
