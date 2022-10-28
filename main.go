@@ -68,4 +68,4 @@ func getStagedDiff() (string, error) {
 }
 
 func fetchPrompt() (string, error) {
-	home,
+	home, err := os.
