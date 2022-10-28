@@ -68,4 +68,5 @@ func getStagedDiff() (string, error) {
 }
 
 func fetchPrompt() (string, error) {
-	home, err := os.UserHome
+	home, err := os.UserHomeDir()
+	if err != 
