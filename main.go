@@ -73,4 +73,4 @@ func fetchPrompt() (string, error) {
 		return "", err
 	}
 
-	filePath := filepath.Join(home, ".config", "acommit", "p
+	filePath := filepath.Join(home, ".config", "acommit", "prompt.txt")
