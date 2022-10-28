@@ -73,4 +73,4 @@ func fetchPrompt() (string, error) {
 		return "", err
 	}
 
-	filePath := filepat
+	filePath := filepath.Join(home, ".conf
