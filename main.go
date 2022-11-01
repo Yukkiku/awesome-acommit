@@ -75,4 +75,4 @@ func fetchPrompt() (string, error) {
 
 	filePath := filepath.Join(home, ".config", "acommit", "prompt.txt")
 
-	content, e
+	content, err := os.Rea
