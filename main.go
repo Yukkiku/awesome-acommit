@@ -75,4 +75,5 @@ func fetchPrompt() (string, error) {
 
 	filePath := filepath.Join(home, ".config", "acommit", "prompt.txt")
 
-	content, err := os.ReadFile(file
+	content, err := os.ReadFile(filePath)
+	if os.IsN
