@@ -77,4 +77,4 @@ func fetchPrompt() (string, error) {
 
 	content, err := os.ReadFile(filePath)
 	if os.IsNotExist(err) {
-		fmt.Println("No prompt f
+		fmt.Println("No prompt file found. Cre
