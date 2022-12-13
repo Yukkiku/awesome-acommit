@@ -78,4 +78,4 @@ func fetchPrompt() (string, error) {
 	content, err := os.ReadFile(filePath)
 	if os.IsNotExist(err) {
 		fmt.Println("No prompt file found. Creating one at ~/.config/acommit/prompt.txt")
-		const pro
+		const prompt = "You are
