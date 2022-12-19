@@ -78,4 +78,4 @@ func fetchPrompt() (string, error) {
 	content, err := os.ReadFile(filePath)
 	if os.IsNotExist(err) {
 		fmt.Println("No prompt file found. Creating one at ~/.config/acommit/prompt.txt")
-		const prompt = "You are to act as the author of a commit message in git. Your mission is to create clean and comprehensive commit messages in the gitmoji convention with emoji and explain
+		const prompt = "You are to act as the author of a commit message in git. Your mission is to create clean and comprehensive commit messages in the gitmoji convention with emoji and explain why a change 
