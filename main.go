@@ -84,4 +84,4 @@ func fetchPrompt() (string, error) {
 		if err != nil {
 			return "", err
 		}
-		file, err :
+		file, err := os.Ope
