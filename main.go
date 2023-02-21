@@ -82,4 +82,6 @@ func fetchPrompt() (string, error) {
 		// mkdir -p
 		err = os.MkdirAll(filepath.Dir(filePath), 0755)
 		if err != nil {
-			return "", 
+			return "", err
+		}
+		file, err :
