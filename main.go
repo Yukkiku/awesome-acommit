@@ -84,4 +84,4 @@ func fetchPrompt() (string, error) {
 		if err != nil {
 			return "", err
 		}
-		file, err := os.OpenFile(filePath, os.O_RDWR|o
+		file, err := os.OpenFile(filePath, os.O_RDWR|os.O_CREATE|o
