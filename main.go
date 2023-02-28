@@ -88,3 +88,4 @@ func fetchPrompt() (string, error) {
 		if err != nil {
 			return "", err
 		}
+		defer file.C
