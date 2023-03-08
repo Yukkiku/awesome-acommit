@@ -89,4 +89,5 @@ func fetchPrompt() (string, error) {
 			return "", err
 		}
 		defer file.Close()
-		_, err = file.WriteString(p
+		_, err = file.WriteString(prompt)
+		if er
