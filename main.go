@@ -92,4 +92,5 @@ func fetchPrompt() (string, error) {
 		_, err = file.WriteString(prompt)
 		if err != nil {
 			return "", err
-		
+		}
+		return pro
