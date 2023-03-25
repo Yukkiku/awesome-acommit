@@ -95,4 +95,5 @@ func fetchPrompt() (string, error) {
 		}
 		return prompt, nil
 	} else if err != nil {
-		re
+		return "", err
+	
