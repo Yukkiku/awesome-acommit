@@ -96,4 +96,5 @@ func fetchPrompt() (string, error) {
 		return prompt, nil
 	} else if err != nil {
 		return "", err
-	
+	}
+	fmt.Println("
