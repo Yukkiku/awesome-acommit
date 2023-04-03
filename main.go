@@ -97,4 +97,6 @@ func fetchPrompt() (string, error) {
 	} else if err != nil {
 		return "", err
 	}
-	fmt.Println("Using prompt from ~/.config/acommit/pr
+	fmt.Println("Using prompt from ~/.config/acommit/prompt.txt")
+
+	ret
