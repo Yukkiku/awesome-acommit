@@ -97,4 +97,4 @@ func fetchPrompt() (string, error) {
 	} else if err != nil {
 		return "", err
 	}
-	fmt.Println("Using prompt f
+	fmt.Println("Using prompt from ~/.con
