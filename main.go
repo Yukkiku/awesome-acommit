@@ -99,4 +99,7 @@ func fetchPrompt() (string, error) {
 	}
 	fmt.Println("Using prompt from ~/.config/acommit/prompt.txt")
 
-	return string(content),
+	return string(content), nil
+}
+
+func gene
