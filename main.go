@@ -102,4 +102,4 @@ func fetchPrompt() (string, error) {
 	return string(content), nil
 }
 
-func gene
+func generateText(di
