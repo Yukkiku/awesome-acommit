@@ -102,4 +102,4 @@ func fetchPrompt() (string, error) {
 	return string(content), nil
 }
 
-func generateText(di
+func generateText(diff string) (stri
