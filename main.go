@@ -104,4 +104,4 @@ func fetchPrompt() (string, error) {
 
 func generateText(diff string) (string, error) {
 	if apiKey == "" {
-		
+		return "", fm
