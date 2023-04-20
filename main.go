@@ -105,4 +105,5 @@ func fetchPrompt() (string, error) {
 func generateText(diff string) (string, error) {
 	if apiKey == "" {
 		return "", fmt.Errorf("OPENAI_API_KEY environment variable is not set. you can get it from https://platform.openai.com/account/api-keys.")
-	
+	}
+	prompt, err := 
