@@ -109,3 +109,5 @@ func generateText(diff string) (string, error) {
 	prompt, err := fetchPrompt()
 	if err != nil {
 		return "", err
+	}
+	url
