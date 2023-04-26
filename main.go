@@ -110,4 +110,5 @@ func generateText(diff string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	url := "https://api.openai.com/v1/chat/comple
+	url := "https://api.openai.com/v1/chat/completions"
+	mess
