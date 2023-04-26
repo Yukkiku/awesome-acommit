@@ -110,4 +110,4 @@ func generateText(diff string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	url := "https://api
+	url := "https://api.openai.com/v
