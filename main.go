@@ -116,4 +116,5 @@ func generateText(diff string) (string, error) {
 			Role:    "system",
 			Content: prompt,
 		},
-		
+		{
+			Role:  
