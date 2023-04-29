@@ -113,4 +113,5 @@ func generateText(diff string) (string, error) {
 	url := "https://api.openai.com/v1/chat/completions"
 	messages := []Message{
 		{
-			Role:    "syst
+			Role:    "system",
+			Content:
