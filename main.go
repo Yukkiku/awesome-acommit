@@ -114,4 +114,6 @@ func generateText(diff string) (string, error) {
 	messages := []Message{
 		{
 			Role:    "system",
-			Content:
+			Content: prompt,
+		},
+		
