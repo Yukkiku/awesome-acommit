@@ -123,4 +123,4 @@ func generateText(diff string) (string, error) {
 	}
 
 	data := map[string]interface{}{
-		"m
+		"model":    "gp
