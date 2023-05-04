@@ -118,4 +118,8 @@ func generateText(diff string) (string, error) {
 		},
 		{
 			Role:    "user",
-			Content: di
+			Content: diff,
+		},
+	}
+
+	data 
