@@ -122,4 +122,5 @@ func generateText(diff string) (string, error) {
 		},
 	}
 
-	data := map[string]inter
+	data := map[string]interface{}{
+		"m
