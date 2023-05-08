@@ -124,4 +124,4 @@ func generateText(diff string) (string, error) {
 
 	data := map[string]interface{}{
 		"model":    "gpt-3.5-turbo",
-		"
+		"messages"
