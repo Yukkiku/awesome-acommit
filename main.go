@@ -127,4 +127,5 @@ func generateText(diff string) (string, error) {
 		"messages": messages,
 	}
 
-	payload, err := json.Mars
+	payload, err := json.Marshal(data)
+	if er
