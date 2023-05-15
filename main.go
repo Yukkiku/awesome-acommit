@@ -128,4 +128,5 @@ func generateText(diff string) (string, error) {
 	}
 
 	payload, err := json.Marshal(data)
-	if er
+	if err != nil {
+	
