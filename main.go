@@ -132,4 +132,4 @@ func generateText(diff string) (string, error) {
 		return "", err
 	}
 
-	req,
+	req, err := http.NewRequest
