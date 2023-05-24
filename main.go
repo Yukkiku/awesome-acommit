@@ -134,4 +134,7 @@ func generateText(diff string) (string, error) {
 
 	req, err := http.NewRequest("POST", url, strings.NewReader(string(payload)))
 	if err != nil {
-		return "", e
+		return "", err
+	}
+
+	req.Hea
