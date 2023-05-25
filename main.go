@@ -137,4 +137,4 @@ func generateText(diff string) (string, error) {
 		return "", err
 	}
 
-	req.Header.Set("C
+	req.Header.Set("Content-Type", "app
