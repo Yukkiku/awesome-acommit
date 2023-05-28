@@ -138,4 +138,4 @@ func generateText(diff string) (string, error) {
 	}
 
 	req.Header.Set("Content-Type", "application/json")
-	re
+	req.Header.Set("
