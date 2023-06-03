@@ -138,4 +138,4 @@ func generateText(diff string) (string, error) {
 	}
 
 	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Authorization", fmt.Sprintf
+	req.Header.Set("Authorization", fmt.Sprintf("Bearer %s", apiKey))
