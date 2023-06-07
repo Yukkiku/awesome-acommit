@@ -142,4 +142,5 @@ func generateText(diff string) (string, error) {
 
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
-		return 
+		return "", err
+	}
