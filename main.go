@@ -141,3 +141,4 @@ func generateText(diff string) (string, error) {
 	req.Header.Set("Authorization", fmt.Sprintf("Bearer %s", apiKey))
 
 	resp, err := http.DefaultClient.Do(req)
+	if err != nil
