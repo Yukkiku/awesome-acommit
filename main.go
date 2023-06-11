@@ -145,3 +145,5 @@ func generateText(diff string) (string, error) {
 		return "", err
 	}
 	defer resp.Body.Close()
+
+	body, er
