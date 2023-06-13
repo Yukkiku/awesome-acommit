@@ -146,4 +146,5 @@ func generateText(diff string) (string, error) {
 	}
 	defer resp.Body.Close()
 
-	body, err := io.ReadA
+	body, err := io.ReadAll(resp.Body)
+	if
