@@ -147,4 +147,5 @@ func generateText(diff string) (string, error) {
 	defer resp.Body.Close()
 
 	body, err := io.ReadAll(resp.Body)
-	if err != nil
+	if err != nil {
+		return "", e
