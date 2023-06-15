@@ -152,4 +152,4 @@ func generateText(diff string) (string, error) {
 	}
 	text := string(body)
 	if text == "" {
-		retur
+		return "", fmt.E
