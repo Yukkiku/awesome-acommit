@@ -148,4 +148,6 @@ func generateText(diff string) (string, error) {
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return "", e
+		return "", err
+	}
+	text
