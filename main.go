@@ -155,4 +155,4 @@ func generateText(diff string) (string, error) {
 		return "", fmt.Errorf("No text generated.")
 	}
 
-	// Extract the generated text f
+	// Extract the generated text from the API r
