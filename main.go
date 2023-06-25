@@ -156,4 +156,4 @@ func generateText(diff string) (string, error) {
 	}
 
 	// Extract the generated text from the API response here.
-	// You may
+	// You may need to
