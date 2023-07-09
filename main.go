@@ -160,4 +160,4 @@ func generateText(diff string) (string, error) {
 	return text, nil
 }
 
-func
+func parseRespo
