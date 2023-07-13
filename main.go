@@ -161,4 +161,4 @@ func generateText(diff string) (string, error) {
 }
 
 func parseResponse(result string) (string, error) {
-	var re
+	var response JsonRe
