@@ -162,4 +162,4 @@ func generateText(diff string) (string, error) {
 
 func parseResponse(result string) (string, error) {
 	var response JsonResponse
-	err := json.Unmarshal(
+	err := json.Unmarshal([]byte(resu
