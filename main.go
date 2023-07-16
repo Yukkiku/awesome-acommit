@@ -164,3 +164,4 @@ func parseResponse(result string) (string, error) {
 	var response JsonResponse
 	err := json.Unmarshal([]byte(result), &response)
 	if err != nil {
+		return "", err
