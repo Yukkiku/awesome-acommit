@@ -165,3 +165,5 @@ func parseResponse(result string) (string, error) {
 	err := json.Unmarshal([]byte(result), &response)
 	if err != nil {
 		return "", err
+	}
+	text :=
