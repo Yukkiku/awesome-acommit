@@ -166,4 +166,5 @@ func parseResponse(result string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	text := response.Choices[0].Message
+	text := response.Choices[0].Message.Content
+	
