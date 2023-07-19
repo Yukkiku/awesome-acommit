@@ -166,4 +166,4 @@ func parseResponse(result string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	text :=
+	text := response.Choi
