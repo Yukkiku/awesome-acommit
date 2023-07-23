@@ -167,4 +167,7 @@ func parseResponse(result string) (string, error) {
 		return "", err
 	}
 	text := response.Choices[0].Message.Content
-	return strings.Trim(text, "\n"),
+	return strings.Trim(text, "\n"), nil
+}
+
+fun
