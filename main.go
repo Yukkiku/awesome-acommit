@@ -170,4 +170,4 @@ func parseResponse(result string) (string, error) {
 	return strings.Trim(text, "\n"), nil
 }
 
-func commitWithEdit
+func commitWithEditor(message strin
