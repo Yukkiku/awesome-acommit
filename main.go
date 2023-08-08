@@ -172,4 +172,4 @@ func parseResponse(result string) (string, error) {
 
 func commitWithEditor(message string) error {
 	// Create a temporary file to hold the commit message
-	tempFile, err := os.Cre
+	tempFile, err := os.CreateTemp("", "co
