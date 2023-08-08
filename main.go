@@ -171,4 +171,5 @@ func parseResponse(result string) (string, error) {
 }
 
 func commitWithEditor(message string) error {
-	// Create a temporary file to hold the commit mess
+	// Create a temporary file to hold the commit message
+	tempFile, e
