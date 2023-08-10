@@ -175,3 +175,5 @@ func commitWithEditor(message string) error {
 	tempFile, err := os.CreateTemp("", "commit-message")
 	if err != nil {
 		return err
+	}
+	defer os.Remo
