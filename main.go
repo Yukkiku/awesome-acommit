@@ -176,4 +176,4 @@ func commitWithEditor(message string) error {
 	if err != nil {
 		return err
 	}
-	defer os.Remo
+	defer os.Remove(tempFile.Name(
