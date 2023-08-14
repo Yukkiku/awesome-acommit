@@ -178,4 +178,4 @@ func commitWithEditor(message string) error {
 	}
 	defer os.Remove(tempFile.Name())
 
-	// Write the commit
+	// Write the commit message to the 
