@@ -179,4 +179,5 @@ func commitWithEditor(message string) error {
 	defer os.Remove(tempFile.Name())
 
 	// Write the commit message to the temporary file
-	_, err = tempFile.WriteString(mess
+	_, err = tempFile.WriteString(message)
+	if er
