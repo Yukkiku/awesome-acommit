@@ -181,3 +181,4 @@ func commitWithEditor(message string) error {
 	// Write the commit message to the temporary file
 	_, err = tempFile.WriteString(message)
 	if err != nil {
+		return er
