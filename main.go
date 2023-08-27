@@ -184,4 +184,4 @@ func commitWithEditor(message string) error {
 		return err
 	}
 
-	// Close the te
+	// Close the temp file to flush
