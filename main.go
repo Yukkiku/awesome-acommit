@@ -186,3 +186,5 @@ func commitWithEditor(message string) error {
 
 	// Close the temp file to flush the contents
 	tempFile.Close()
+
+	cmd := ex
