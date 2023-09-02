@@ -187,4 +187,5 @@ func commitWithEditor(message string) error {
 	// Close the temp file to flush the contents
 	tempFile.Close()
 
-	cmd := exec.Command("git", "commit", "-
+	cmd := exec.Command("git", "commit", "-t", tempFile.Name())
+	cmd
