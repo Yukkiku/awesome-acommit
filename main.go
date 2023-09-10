@@ -190,4 +190,5 @@ func commitWithEditor(message string) error {
 	cmd := exec.Command("git", "commit", "-t", tempFile.Name())
 	cmd.Stdin = os.Stdin
 	cmd.Stdout = os.Stdout
-	cmd.Stderr = 
+	cmd.Stderr = os.Stderr
+	re
