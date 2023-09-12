@@ -26,3 +26,14 @@ Modify `~/.config/awesome-acommit/prompt.txt` to customize the prompt.
 ### Multilingual Support
 
 If you need to write commit messages in a language other than English, simply add your preferred language after the prompt. For instance, for Japanese:
+
+``
+And, translate it to Japanese except prefix.
+``
+
+### Commit Convention
+
+This tool uses the `gitmoji convention with emoji` by default, but you can opt for other conventions such as:
+
+- [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- gitmoji convention with emoji markup
